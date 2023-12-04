@@ -348,10 +348,11 @@
             flex-wrap: wrap;
             height: 280px;
             margin-bottom: 64px;
+            margin-inline: -20px;
     
             .company {
                 width: 178px;
-                height: 138px;
+                height: 138px;           
             }
         }
 

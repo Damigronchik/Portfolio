@@ -260,6 +260,7 @@
     flex-wrap: wrap;
     height: 280px;
     margin-bottom: 64px;
+    margin-inline: -20px;
   }
   .projects .companiesLogos .company {
     width: 178px;
