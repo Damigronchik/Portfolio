@@ -327,35 +327,35 @@ header {
     }
 }
 
-.companiesLogos {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 140px;
-
-    .company {
-        height: 138px;
-        width: 338px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid #181823;
-
-        a{
-            opacity: 60%;
-        }
-
-        a:hover {
-            opacity: 100%;
-        }
-    }
-}
-
 .projects {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 120px;
+
+    .companiesLogos {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 140px;
+        margin-bottom: 120px;
+    
+        .company {
+            height: 138px;
+            width: 338px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #181823;
+    
+            a{
+                opacity: 60%;
+            }
+    
+            a:hover {
+                opacity: 100%;
+            }
+        }
+    }
 
     .left {
         margin-right: 24px;
@@ -542,18 +542,18 @@ header {
     }
 }
 
-.reg {
+.reg {  
     display: flex;
     justify-content: center;
     flex-direction: row;
-    gap: clamp(24px, 10px, 44px);
+    gap: 24px;
     margin-block: 120px;
     margin-inline: 182px;
 
     .left {
         margin-right: 24px;
 
-        p:first-child {
+        h2 {
             color: #FFF;
             font-size: 55px;
             font-style: normal;
@@ -562,7 +562,7 @@ header {
             margin-bottom: 24px;
         }
 
-        p:nth-child(2) {
+        p {
             color: #8491A0;
             font-size: 18px;
             font-style: normal;

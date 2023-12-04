@@ -53,15 +53,15 @@
   .skillset .blocks .top1, .skillset .blocks .top2, .skillset .blocks .bottom1, .skillset .blocks .bottom2 {
     width: 332px;
   }
-  .companiesLogos {
-    flex-wrap: wrap;
-    height: 280px;
-  }
   .projects {
     flex-direction: column;
     align-items: center;
     margin-block: 80px;
     margin-inline: 40px;
+  }
+  .projects .companiesLogos {
+    flex-wrap: wrap;
+    height: 280px;
   }
   .projects .left {
     margin-right: 0px;
@@ -250,20 +250,20 @@
   .skillset .blocks .bottom1 {
     margin-bottom: 48px;
   }
-  .companiesLogos {
-    flex-wrap: wrap;
-    height: 280px;
-  }
-  .companiesLogos .company {
-    width: 178px;
-    height: 138px;
-  }
   .projects {
-    margin-top: 64px;
     margin-bottom: 22px;
     margin-inline: 20px;
     flex-direction: column;
     align-items: center;
+  }
+  .projects .companiesLogos {
+    flex-wrap: wrap;
+    height: 280px;
+    margin-bottom: 64px;
+  }
+  .projects .companiesLogos .company {
+    width: 178px;
+    height: 138px;
   }
   .projects .left {
     margin-right: 0;

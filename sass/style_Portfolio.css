@@ -277,13 +277,19 @@ header .header .menu {
   line-height: 150%;
 }
 
-.companiesLogos {
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.projects .companiesLogos {
   display: flex;
   flex-direction: row;
   justify-content: center;
   height: 140px;
+  margin-bottom: 120px;
 }
-.companiesLogos .company {
+.projects .companiesLogos .company {
   height: 138px;
   width: 338px;
   display: flex;
@@ -291,18 +297,11 @@ header .header .menu {
   align-items: center;
   border: 1px solid #181823;
 }
-.companiesLogos .company a {
+.projects .companiesLogos .company a {
   opacity: 60%;
 }
-.companiesLogos .company a:hover {
+.projects .companiesLogos .company a:hover {
   opacity: 100%;
-}
-
-.projects {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 120px;
 }
 .projects .left {
   margin-right: 24px;
@@ -474,7 +473,7 @@ header .header .menu {
 .reg .left {
   margin-right: 24px;
 }
-.reg .left p:first-child {
+.reg .left h2 {
   color: #FFF;
   font-size: 55px;
   font-style: normal;
@@ -482,7 +481,7 @@ header .header .menu {
   line-height: normal;
   margin-bottom: 24px;
 }
-.reg .left p:nth-child(2) {
+.reg .left p {
   color: #8491A0;
   font-size: 18px;
   font-style: normal;
