@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.error {
+    margin-inline: auto;
+    background: url(../img/404.jpg) center center no-repeat;
+    width: 1000px;
+    height: 850px;
+    background-size: cover;
+}
+p {
+    font-family: 'Nova Square', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    text-align: center;
+}
