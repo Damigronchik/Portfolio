@@ -79,16 +79,16 @@
     width: 688px;
   }
   .projects .left .block .laptop, .projects .right .block .laptop {
-    background: url(../../img/laptop_768.png) center center no-repeat;
+    background: url(../img/laptop_768.png) center center no-repeat;
   }
   .projects .left .block .phone, .projects .right .block .phone {
-    background: url(../../img/phone_768.png) center center no-repeat;
+    background: url(../img/phone_768.png) center center no-repeat;
   }
   .projects .left .block .bl_phone, .projects .right .block .bl_phone {
-    background: url(../../img/bl_phone_768.png) center center no-repeat;
+    background: url(../img/bl_phone_768.png) center center no-repeat;
   }
   .projects .left .block .letter, .projects .right .block .letter {
-    background: url(../../img/letter_768.png) center center no-repeat;
+    background: url(../img/letter_768.png) center center no-repeat;
   }
   .projects .left .view, .projects .right .view {
     margin: 0px;
